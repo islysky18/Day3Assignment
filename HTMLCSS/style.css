@@ -1,0 +1,82 @@
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+img {
+  max-width: 180px;
+}
+input[type="file"] {
+  padding: 10px;
+  /* background: #2d2d2d; */
+}
+fieldset {
+  border: 10px solid yellow;
+  background-color: lightyellow;
+}
+legend {
+  font-size: 25px;
+}
+
+#tall {
+  box-sizing: content-box;
+  height: 18px;
+  width: 25px;
+  background-color: aqua;
+}
+
+form {
+  display: table;
+  margin: auto;
+}
+p {
+  display: table-row;
+}
+label {
+  display: table-cell;
+  text-align: right;
+}
+input {
+  display: table-column;
+}
+
+* {
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+textarea {
+  display: table-column;
+}
+
+.zoom {
+  transition: transform 0.2s;
+}
+
+.zoom:hover {
+  transform: scale(1.1);
+}
+
+.leftlabel,
+.rightlabel {
+  display: inline-block;
+  width: 50px;
+  padding: 3px;
+  text-align: center;
+}
+
+.leftlabel {
+  background-color: red;
+  color: white;
+}
+.rightlabel {
+  background-color: purple;
+  color: white;
+}
+
+.img {
+  background-image: url("love.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
